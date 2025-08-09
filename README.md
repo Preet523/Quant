@@ -2,8 +2,7 @@
 This repository showcases three progressively developed quantitative trading strategies. Each project applies a different approach — from momentum to mean reversion to a combined comparative model — with improvements in design, signal logic, and risk management throughout.
 
 ## Project Overview
-### 1. User Backtest
-- Momentum Strategy
+### 1. Momentum Backtest
 
 - First modular backtesting framework
 
