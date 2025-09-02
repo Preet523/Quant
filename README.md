@@ -1,10 +1,10 @@
-# Quant Strategy Projects
-This repository showcases three progressively developed quantitative trading strategies. Each project applies a different approach — from momentum to mean reversion to a combined comparative model — with improvements in design, signal logic, and risk management throughout.
+# Quant Strategy & Risk Projects
+This repository showcases four progressively developed quantitative trading strategies and risk management projects. Each project applies a different approach — from momentum to mean reversion to comparative modeling and risk analysis — with improvements in design, signal logic, and portfolio risk controls throughout.
 
 ## Project Overview
 ### 1. Momentum Backtest
 
-- First modular backtesting framework
+First modular backtesting framework
 
 - Implements momentum signals using SMA and volatility
 
@@ -13,7 +13,7 @@ This repository showcases three progressively developed quantitative trading str
 - Lays foundation for future improvements
 
 ### 2. Pairs Trading
-- Mean Reversion Strategy
+Mean Reversion Strategy
 
 - Trades on the spread between two correlated assets
 
@@ -24,7 +24,7 @@ This repository showcases three progressively developed quantitative trading str
 - Enhances signal generation logic
 
 ### 3. Mean-Momentum Comparison
-- Momentum vs. Mean Reversion
+Momentum vs. Mean Reversion
 
 - Final and most advanced project
 
@@ -36,6 +36,19 @@ This repository showcases three progressively developed quantitative trading str
 
 - More robust tracking of portfolio value and performance
 
+## 4. VaR & CVaR Risk Analysis
+Risk Estimation & Backtesting
+
+- Calculates Value at Risk (VaR) using historical, parametric, and Monte Carlo methods
+
+- Extends to Conditional VaR (CVaR) to measure expected loss beyond VaR
+
+- Backtests VaR to compare predicted vs. actual exceedances
+
+- Visualizes return distributions and risk thresholds
+
+- Demonstrates portfolio-level risk evaluation alongside strategy design
+
 ## Skills Demonstrated
 Strategy design & hypothesis testing
 
@@ -45,10 +58,14 @@ Modular backtesting architecture
 
 Risk controls (drawdown gating, partial allocation)
 
+Risk estimation (VaR, CVaR) & backtesting
+
+Data visualisation & interpretation
+
 Pandas, NumPy, yfinance
 
 ## What They Show
-These projects simulate realistic quant workflows — building, testing, and evaluating systematic strategies using historical data. They demonstrate core competencies in both programming and quantitative thinking, with an emphasis on iteration and improvement.
+These projects simulate realistic quant workflows — building, testing, and evaluating systematic strategies using historical data, then extending into formal risk analysis. They demonstrate core competencies in both programming and quantitative thinking, with an emphasis on iteration, improvement, and practical portfolio risk management.
 
 ## Getting Started
 pip install pandas yfinance matplotlib
