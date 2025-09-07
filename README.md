@@ -45,7 +45,7 @@ Momentum vs. Mean Reversion
 
 - More robust tracking of portfolio value and performance
 
-## 4. [VaR & CVaR Risk Analysis](https://github.com/Preet523/Quant/blob/main/Notebooks/VaR.ipynb)
+### 4. [VaR & CVaR Risk Analysis](https://github.com/Preet523/Quant/blob/main/Notebooks/VaR.ipynb)
 Risk Estimation & Backtesting
 
 - Calculates Value at Risk (VaR) using historical, parametric, and Monte Carlo methods
